@@ -1,0 +1,180 @@
+body{
+    background: rgb(18, 18, 18);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.nav{
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+}
+
+input{
+    width: 180px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+
+} 
+
+.btn{
+    background-color: transparent;
+    border: none;
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    cursor: pointer;    
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(40, 40, 40);
+}
+
+.main{
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.p-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+    object-fit: cover;
+}
+
+.p-info h1{
+    margin: 0;
+    font-size: 48px;
+}
+
+.p-stats{
+    color: rgb(179,  179, 179);
+    margin-top: 10px;
+}
+
+.play-card{
+    
+    background-color: rgb(24, 24, 24);
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.card-grid{
+    
+        display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(180px, 1fr) );
+    margin-bottom: 40px;
+    gap: 24px;
+}
+
+.play-card:hover{
+    background-color: rgb(40, 40, 40);
+
+}
+
+img{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 16px;
+    aspect-ratio: 1;
+}
+
+.card-title{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-des{
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+}
+
+.player-bar{
+    position: fixed;
+    bottom: 0;
+    left: 0;    
+    right: 0;
+    background-color: rgb(24, 24, 24);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-3{
+    background-color: rgb(29, 185, 84);
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+
+}
+
+.btn-3:hover{
+    background-color: rgb(30, 215, 96);
+}
+.dis{
+    
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn-1{
+    background-color: rgb(29, 185, 84);
+    border: none;
+    color: white;
+ font-weight: bold;
+    cursor: pointer;
+    margin-right:10px;
+    padding: 12px 30px;
+    border-radius: 20px;
+}
+.btn-2{
+    background-color: transparent;
+    border: 1PX solid white;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px 30px;
+    border-radius: 20px;
+}
+
+.btn-1:hover{
+    background-color: rgb(30, 215, 96);
+}
+
+.btn-2:hover{
+    background-color:rgba(255, 255, 255, 0.1);
+}
+
